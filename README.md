@@ -1,5 +1,7 @@
 ##  Weather Forecast
 
+Please review code first.
+
 ### Issue: 
 
 Fix warning wehen running tests
@@ -11,6 +13,10 @@ All unit and component tests pass but one gives a warning, this is the one (App.
 I've tried wrapping code in `act` and have not been able to get it working so far
 
 I am currently skipping this test and also the application does not show an issue in the UI.
+
+Application will not run without keys set in .`env`.  
+You can either grab free ones at openweathermap and rapidapi or we can pair to see it running locally on my machine.
+I recently made a mistake i setting up useEffect and API calls and ran 100,000 API requests accidently so I want to make sure I avoid that again!
 
 
     Attempted to log "Warning: An update to App inside a test was not wrapped in act(...).               
